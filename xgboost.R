@@ -146,6 +146,7 @@ mean(submission$Sales)
 write.csv(submission, "xg_ensem5.csv", row.names = F)
 
 #############ensemble of csv's######################
+###where do you got the csv data that is following?
 c1=read.csv("xg1.csv")
 c2=read.csv("xg2.csv")
 c3=read.csv("xg3.csv")
